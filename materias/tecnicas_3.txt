@@ -1,0 +1,11 @@
+     --------TD3------
+___INSTRUMENTACION VIRTUAL___
+
+_instrumento que admite datos binarios desde el exterior
+_PC104: utiliza placa BUS ISA (averiguar)/sustituido por cable USB
+_Interfaz paralelo:-BUS PCI
+_Interfaz serie: -RS232
+_slew rate: velocidad a la cual una señal pasa de un 1 a 0 o viceversa.
+Se debe utilizar el slew rate mas lento que satisfaga mi sistema, que puede facilitar la eliminacion de ruido. Ademas consume mas corriente un slew rate con mayor velocidad debido a la conmutacion (capacitor del integrado)
+_la velocidad de transmision de una longitud determinada de un cable de transmision dependera de su capcitancia distribuida y no del receptor en si.
+!!!!!Averiguar conexion TTL!!!!!!
