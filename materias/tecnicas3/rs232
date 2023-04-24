@@ -18,3 +18,20 @@ https://es.amen-technologies.com/rs232-serial-communication-protocol
 Hay varias razones para esa longevidad del protocolo RS232. Una de ellas es que tiene mejor resistencia al ruido de línea que otros protocolos. 
 El protocolo de comunicación RS232 también es mejor para transmitir señales a distancias más largas que las señales generadas por dispositivos I2C o TTL. 
 También es compatible como estándar con muchos ordenadores y fabricantes de periférico de hardware.
+
+
+UART: protocolo de comunicacion receptor-transmisor asincrono universal. Permite la comunicacion entre dispositivos transformando los datos enviados o recibidos en una serie de binarios.
+_ a mayores velocidades se utiliza SPI o USB, siendo este mas economico con un solo receptor/transmisor.
+_Lo común entre RS232 y UART es que ambos no requieren un reloj para transmitir y recibir datos. La trama Uart consta de 1 bit de inicio, 1 o 2 bits de parada y un bit de paridad para la transferencia de datos en serie.
+_La ventaja de la UART es que soporta la comunicación full-duplex utilizando dos cables. Además, no requiere reloj externo para la comunicación de datos. Soporta la comprobación de errores utilizando un bit de paridad y la longitud de los datos se puede cambiar fácilmente.
+_La comunicación en GPS, módem GSM/GPRS, chips Wi-Fi, etc funciona con UART.
+_La mayor desventaja de UART es que no soporta la configuración multiesclavo o multimaster. Y, el tamaño del paquete de datos está limitado a 9 bits. La UART no es adecuada para la comunicación en serie de gran peso durante el alto consumo de energía.
+
+
+TTL:Tecnología de construcción de circuitos electrónicos digitales, en los que los elementos de entrada de la red lógica son transistores, así como los elementos de salida del dispositivo.
+_La familia de circuitos integrados TTL tienen las siguientes características:
+
+La tensión o voltaje de alimentación es de + 5 Voltios,con Vmin = 4.75 Voltios y Vmax = 5.25 Voltios.
+Su fabricación es con transistores bipolares multiemisores.
+La velocidad de transmisión entre los estados lógicos es su mejor ventaja, ciertamente esta característica le hacer aumentar su consumo.
+Su compuerta básica es la NAND
