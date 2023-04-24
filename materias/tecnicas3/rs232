@@ -1,0 +1,20 @@
+comunicacion serial asincrona rs232:
+1_tipo de comunicacion en serie utilizado comunmente en inudstrias o productos comerciales.
+2_permite la comunicacion entre computadoras y sus perifericos para la transmision de datos en serie.
+3_tiene una velocidad de transmision de 1492 kbps. 
+4_comunica al DTE (EQUIPO DE TRANSMICION DE DATOS) y el CDE (EQUIPO DE COMUNICACION DE DATOS).
+5_se utliza a la par con la UART (receptor y transmisor de datos asincronos universal) a traves de conectores DB-9 debido a que los microcontroladores no manejan esos niveles de voltaje: 
+estos DB-9 poseen dos tipos, conector macho (DTE) y conector hembra (DCE)
+
+Especificaciones electricas:
+.nivel de voltaje: se utiliza como nivel de tierra y 5V. Binary 0 funciona con voltajes de 5 a 15 Vdc y se denomina "encendido". 
+  Binary 1 funciona con voltajes de -5 a -15 Vdc y se denomina "apagado".
+.Nivel de voltaje de la señal recibida: Binary 0 funciona con los voltajes de señal recibida hasta + 3V a +13 Vdc y
+  Binary 1 trabaja con voltajes de hasta -3V a -13 Vdc.
+.impedancia de linea: 
+
+https://es.amen-technologies.com/rs232-serial-communication-protocol
+
+Hay varias razones para esa longevidad del protocolo RS232. Una de ellas es que tiene mejor resistencia al ruido de línea que otros protocolos. 
+El protocolo de comunicación RS232 también es mejor para transmitir señales a distancias más largas que las señales generadas por dispositivos I2C o TTL. 
+También es compatible como estándar con muchos ordenadores y fabricantes de periférico de hardware.
