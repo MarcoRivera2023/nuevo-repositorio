@@ -35,3 +35,29 @@ La tensión o voltaje de alimentación es de + 5 Voltios,con Vmin = 4.75 Voltios
 Su fabricación es con transistores bipolares multiemisores.
 La velocidad de transmisión entre los estados lógicos es su mejor ventaja, ciertamente esta característica le hacer aumentar su consumo.
 Su compuerta básica es la NAND
+
+
+Cable CAT5
+Categoría 5 o CAT5, fue ratificado en 1991. CAT5 ha quedado obsoleto en los últimos años debido a sus limitaciones, en comparación con los cables CAT5e. Aunque el cable CAT5 es un cable bueno y sólido para LAN de 10/100 Mbps, las versiones más recientes de cables CAT son mucho más veloces.
+
+Cable CAT5e
+El cable de categoría 5e, conocido también como Categoría 5 mejorada o CAT5e, es un cable de red ratificado en 1999. El cable CAT5e ofrece un rendimiento muy superior al cable CAT5, que incluye velocidades hasta 10 veces mayores y una capacidad mucho mayor de llegar a distancias mayores sin acusar problemas de diafonía.
+
+Diafonía en CAT5 vs. CAT5e
+El cable CAT5e ha sido específicamente diseñado para sufrir muy poca diafonía (interferencia entre los cables muy próximos) en comparación con los cables CAT5. Es posible que se llegue a producir diafonía con los cables CAT5e, pero la mayor parte de las veces no llegará a comprometer los datos.
+
+Usos de CAT5 vs. CAT5e
+Encontrará instalaciones existentes con cable CAT5 en todas partes. Se utiliza habitualmente para llevar señales de telefonía o vídeo, además de Ethernet. El cable CAT5e constituye una mejora respecto al cable CAT5, diseñado para admitir el funcionamiento full duplex Fast Ethernet y Gigabit Ethernet.
+
+Velocidad de CAT5 vs. CAT5e
+Si dispone de muchos equipos de 10 Mbps, el cableado CAT5 podrá cubrir sus necesidades. También tiene un buen rendimiento con transmisiones Fast Ethernet.
+
+CAT5e es un estándar de 100 MHz, aunque los cables están disponibles con opciones de hasta 350 MHz. Puede esperar transmisiones Ethernet de 4 pares sin problemas, full duplex, con cable UTP CAT5e.
+
+Longitud máxima de cable CAT5 vs. CAT5e
+La distancia máxima a la que puede llegar con cable CAT5 es 100 metros, la misma que con CAT5e. Si necesita tiradas más largas, puede utilizar componentes activos, como por ejemplo routers o extensores, a condición de que sean compatibles con el cable CAT5 o CAT5e.
+
+Conclusión: Cable CAT5 vs. CAT5e
+Las diferencias principales entre los cables CAT5 y CAT5e puede encontrarlas en las especificaciones. Los requisitos de rendimiento han aumentado ligeramente con el nuevo estándar. CAT5e tiene especificaciones más estrictas en cuanto a la diafonía de extremo distante de igual potencia (PS-ELFEXT), la diafonía próxima (NEXT), la atenuación y la pérdida de retorno (RL).
+
+El cable CAT5e tiene una capacidad superior de gestionar el ancho de banda que el cable CAT5. Si está lidiando con las limitaciones de una red de 100 Mbps, probablemente deseará actualizar, por lo menos parte de su sistema, a CAT5e o superior. El cable CAT5e es compatible hacia atrás y puede utilizarse en cualquier aplicación que habitualmente requeriría utilizar cable CAT5.
