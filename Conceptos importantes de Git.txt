@@ -254,4 +254,13 @@ git stash apply stash@{n}: trae el stash que necesites con indicar su número de
 git stash drop: borra el ultimo stash
 git stash clear: borra todos los stash
 
-probando los cambios con un stash
+Git Cherry-pick es un comando que permite tomar uno o varios commits de otra rama o branch sin tener que hacer un merge completo.
+ Así, gracias a cherry-pick, podríamos aplicar los commits relacionados con nuestra funcionalidad en la rama master sin necesidad de hacer un merge.
+
+ El uso de git cherry-pick es sencillo y se puede ejecutar de la siguiente manera:
+
+////git checkoutmaster////
+
+En este ejemplo, commitSha es una referencia de confirmación. Puedes encontrar una referencia de confirmación utilizando el comando git log. En este caso, imaginemos que queremos utilizar la confirmación ‘f’ en la rama master. Para ello, primero debemos asegurarnos de que estamos trabajando con esa rama master.
+
+////git cherry-pick f////
