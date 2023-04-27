@@ -1,2 +1,2 @@
-# nuevo-repositorio
-probando otra version
+#PLATZI#
+Aca se guardara todo lo visto en platzi, no abrir la carpeta materias.
