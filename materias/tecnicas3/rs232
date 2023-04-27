@@ -1,0 +1,63 @@
+comunicacion serial asincrona rs232:
+1_tipo de comunicacion en serie utilizado comunmente en inudstrias o productos comerciales.
+2_permite la comunicacion entre computadoras y sus perifericos para la transmision de datos en serie.
+3_tiene una velocidad de transmision de 1492 kbps. 
+4_comunica al DTE (EQUIPO DE TRANSMICION DE DATOS) y el CDE (EQUIPO DE COMUNICACION DE DATOS).
+5_se utliza a la par con la UART (receptor y transmisor de datos asincronos universal) a traves de conectores DB-9 debido a que los microcontroladores no manejan esos niveles de voltaje: 
+estos DB-9 poseen dos tipos, conector macho (DTE) y conector hembra (DCE)
+
+Especificaciones electricas:
+.nivel de voltaje: se utiliza como nivel de tierra y 5V. Binary 0 funciona con voltajes de 5 a 15 Vdc y se denomina "encendido". 
+  Binary 1 funciona con voltajes de -5 a -15 Vdc y se denomina "apagado".
+.Nivel de voltaje de la señal recibida: Binary 0 funciona con los voltajes de señal recibida hasta + 3V a +13 Vdc y
+  Binary 1 trabaja con voltajes de hasta -3V a -13 Vdc.
+.impedancia de linea: 
+
+https://es.amen-technologies.com/rs232-serial-communication-protocol
+
+Hay varias razones para esa longevidad del protocolo RS232. Una de ellas es que tiene mejor resistencia al ruido de línea que otros protocolos. 
+El protocolo de comunicación RS232 también es mejor para transmitir señales a distancias más largas que las señales generadas por dispositivos I2C o TTL. 
+También es compatible como estándar con muchos ordenadores y fabricantes de periférico de hardware.
+
+
+UART: protocolo de comunicacion receptor-transmisor asincrono universal. Permite la comunicacion entre dispositivos transformando los datos enviados o recibidos en una serie de binarios.
+_ a mayores velocidades se utiliza SPI o USB, siendo este mas economico con un solo receptor/transmisor.
+_Lo común entre RS232 y UART es que ambos no requieren un reloj para transmitir y recibir datos. La trama Uart consta de 1 bit de inicio, 1 o 2 bits de parada y un bit de paridad para la transferencia de datos en serie.
+_La ventaja de la UART es que soporta la comunicación full-duplex utilizando dos cables. Además, no requiere reloj externo para la comunicación de datos. Soporta la comprobación de errores utilizando un bit de paridad y la longitud de los datos se puede cambiar fácilmente.
+_La comunicación en GPS, módem GSM/GPRS, chips Wi-Fi, etc funciona con UART.
+_La mayor desventaja de UART es que no soporta la configuración multiesclavo o multimaster. Y, el tamaño del paquete de datos está limitado a 9 bits. La UART no es adecuada para la comunicación en serie de gran peso durante el alto consumo de energía.
+
+
+TTL:Tecnología de construcción de circuitos electrónicos digitales, en los que los elementos de entrada de la red lógica son transistores, así como los elementos de salida del dispositivo.
+_La familia de circuitos integrados TTL tienen las siguientes características:
+
+La tensión o voltaje de alimentación es de + 5 Voltios,con Vmin = 4.75 Voltios y Vmax = 5.25 Voltios.
+Su fabricación es con transistores bipolares multiemisores.
+La velocidad de transmisión entre los estados lógicos es su mejor ventaja, ciertamente esta característica le hacer aumentar su consumo.
+Su compuerta básica es la NAND
+
+
+Cable CAT5
+Categoría 5 o CAT5, fue ratificado en 1991. CAT5 ha quedado obsoleto en los últimos años debido a sus limitaciones, en comparación con los cables CAT5e. Aunque el cable CAT5 es un cable bueno y sólido para LAN de 10/100 Mbps, las versiones más recientes de cables CAT son mucho más veloces.
+
+Cable CAT5e
+El cable de categoría 5e, conocido también como Categoría 5 mejorada o CAT5e, es un cable de red ratificado en 1999. El cable CAT5e ofrece un rendimiento muy superior al cable CAT5, que incluye velocidades hasta 10 veces mayores y una capacidad mucho mayor de llegar a distancias mayores sin acusar problemas de diafonía.
+
+Diafonía en CAT5 vs. CAT5e
+El cable CAT5e ha sido específicamente diseñado para sufrir muy poca diafonía (interferencia entre los cables muy próximos) en comparación con los cables CAT5. Es posible que se llegue a producir diafonía con los cables CAT5e, pero la mayor parte de las veces no llegará a comprometer los datos.
+
+Usos de CAT5 vs. CAT5e
+Encontrará instalaciones existentes con cable CAT5 en todas partes. Se utiliza habitualmente para llevar señales de telefonía o vídeo, además de Ethernet. El cable CAT5e constituye una mejora respecto al cable CAT5, diseñado para admitir el funcionamiento full duplex Fast Ethernet y Gigabit Ethernet.
+
+Velocidad de CAT5 vs. CAT5e
+Si dispone de muchos equipos de 10 Mbps, el cableado CAT5 podrá cubrir sus necesidades. También tiene un buen rendimiento con transmisiones Fast Ethernet.
+
+CAT5e es un estándar de 100 MHz, aunque los cables están disponibles con opciones de hasta 350 MHz. Puede esperar transmisiones Ethernet de 4 pares sin problemas, full duplex, con cable UTP CAT5e.
+
+Longitud máxima de cable CAT5 vs. CAT5e
+La distancia máxima a la que puede llegar con cable CAT5 es 100 metros, la misma que con CAT5e. Si necesita tiradas más largas, puede utilizar componentes activos, como por ejemplo routers o extensores, a condición de que sean compatibles con el cable CAT5 o CAT5e.
+
+Conclusión: Cable CAT5 vs. CAT5e
+Las diferencias principales entre los cables CAT5 y CAT5e puede encontrarlas en las especificaciones. Los requisitos de rendimiento han aumentado ligeramente con el nuevo estándar. CAT5e tiene especificaciones más estrictas en cuanto a la diafonía de extremo distante de igual potencia (PS-ELFEXT), la diafonía próxima (NEXT), la atenuación y la pérdida de retorno (RL).
+
+El cable CAT5e tiene una capacidad superior de gestionar el ancho de banda que el cable CAT5. Si está lidiando con las limitaciones de una red de 100 Mbps, probablemente deseará actualizar, por lo menos parte de su sistema, a CAT5e o superior. El cable CAT5e es compatible hacia atrás y puede utilizarse en cualquier aplicación que habitualmente requeriría utilizar cable CAT5.

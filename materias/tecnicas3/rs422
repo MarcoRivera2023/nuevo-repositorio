@@ -1,0 +1,11 @@
+comunicacion serial rs422:
+
+_permite la comunicacion entre varios dispostivios a la vez, a diferencia del rs232 que solo posee una comunicacion unitaria.
+ Se podria decir que el rs422 funciona como un router, enviando la misma informacion a multiples "esclavos" desde un solo maestro, permitiendo la bidireccionalidad.
+ _Las comunicaciones RS422 permiten comunicaciones a velocidades más altas, hasta 10Mbps. 
+ En RS422, los cables pueden ser de hasta 1200 metros. Por lo que si estás pensando en una comunicación serie de larga distancia (Estamos hablando de 1.2 kilómetros) lo suyo es utilizar RS422.
+ _RS422 es una comunicación diferencial. Pues es una comunicación que en lugar de tener como referencia GND, pasa de GND (no tiene en cuenta a GND) y envía dos potenciales, uno alto (HIGH) y otro bajo (LOW).
+  por lo que el receptor debera comparar entre estos dos potenciales apra determinar el dato, si HIGH es menor a LOW es un 1 y 0 viceversa.
+   Los valores de tensión van entre 6 y 2 Voltios para HIGH y entre -2 y -6 Voltios para LOW en este tipo de comunicaciones RS422.
+ _Ademas posee mejor rechazo al ruido debido a su par trenzado, eliminando asi las interferencias, ademas de que se puede despreciar el ruido proveniente de tierra debido a que se utiliza el GND
+ 
