@@ -18,10 +18,11 @@ Poner cada proyecto en su propio ambiente, entrar en cada carpeta.
 python3 -m venv env
 Activar el ambiente
 
-source env/bin/activate
-Salir del ambiente virtual
+source env/Scripts/activate
 
+Salir del ambiente virtual
 deactivate
+
 Podemos instalar las librerias necesarias en el ambiente virtual como por ejemplo
 
 pip3 install matplotlib==3.5.0
@@ -50,3 +51,16 @@ source env/bin/activate
 pip3 install -r requirements.txt
 python3 main.py
 ```
+FastAPI
+
+Es un framework de Python para crear aplicaciones web rápidas y seguras. Utilice la mejor OpenAPI para definir la interfaz de la aplicación y proporcione un conjunto de herramientas para validar y documentar la API de manera automática.
+****Uvicorn ****
+
+Es un servidor ASGI (Asynchronous Server Gateway Interface) de alto rendimiento para ejecutar aplicaciones ASGI como FastAPI. Es una alternativa a otros servidores ASGI como Daphne y Hypercorn.
+
+FastAPI y Uvicorn se utilizan juntos para proporcionar un entorno rápido y fácil de usar para el desarrollo y el uso de aplicaciones web basadas en ASGI.
+
+pip install fastapi
+
+
+A continuación, puede comenzar a crear su primera aplicación FastAPI. Por ejemplo, aquí tienes un ejemplo de una aplicación que expone una ruta “/” que recibe una solicitud GET y devuelve un mensaje de bienvenida:
