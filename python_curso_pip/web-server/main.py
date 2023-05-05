@@ -1,4 +1,5 @@
 import store
+<<<<<<< HEAD
 from fastapi import FastAPI
 from fastapi.responses import HTMLResponse
 app=FastAPI() #instanciamos la aplicacion
@@ -20,6 +21,9 @@ def get_list():
 def get_list():
     return{"name":"Platzi"}
     """""""""
+=======
+
+>>>>>>> 3ad7cb4f88a90ecfff57d8740e7cf2658b5516a7
 def run():
     store.categories()
 
